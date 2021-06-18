@@ -1,0 +1,217 @@
+@media (max-width: 900px) {
+    .container {
+        width: 847px;
+    }
+    .header-main {
+       .header-main__link {
+           margin-bottom: 100px;
+       }
+    }
+    .presentation {
+        .presentation__wrapper {
+            flex-wrap: wrap;
+            margin-bottom: 90px;
+        }
+        .presentation__box {
+            margin-bottom: 25px;
+            max-width: 370px;
+        }
+    }
+    .works {
+        .works__wrapper {
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 35px;
+            column-gap: 35px;
+        }
+        .works__images {
+            width: 100%;
+        }
+    }
+    .modal {
+       .modal__form {
+           width: 100%;
+       }
+    } 
+    .footer {
+        .footer__social {
+            margin-left: 30px;
+        }
+    }
+
+}
+@media (max-width: 860px) {
+    .container {
+        width: 730px;
+    }
+    .presentation{
+       .presentation__box {
+            margin-bottom: 25px;
+            max-width: 330px;
+        } 
+    } 
+    .footer {
+        .footer__social {
+            margin-left: 30px;
+        }
+    }
+    .about {
+        .about__wrapper {
+            flex-wrap: wrap;
+        }
+        .about__box {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 50px;
+        }
+
+    }
+    
+}
+@media (max-width: 775px) {
+    .container {
+        width: 650px;
+    }
+    .header-main {
+       .header-main__text {
+            font-size: 14px;
+        } 
+    }
+    .presentation{
+        .presentation__box {
+            margin-bottom: 25px;
+            max-width: 294px;
+        } 
+    } 
+    .footer {
+        .footer__social {
+            margin-left: 15px;
+        }
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        width: 570px;
+    }
+    .presentation {
+        .presentation__wrapper {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0;
+        }
+        .presentation__box {
+            margin-bottom: 80px;
+            max-width: 100%;
+        }
+    }
+    .footer {
+        .footer__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer__web {
+            margin-bottom: 20px;
+        }
+        .footer__box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer__social {
+            margin-left: 0;
+        }
+    }
+    
+}
+
+@media (max-width: 630px) {
+    .container {
+        width: 520px;
+    }
+    .works {
+        .works__wrapper {
+            grid-template-rows: repeat(6, 1fr);
+            grid-template-columns: 1fr;
+            row-gap: 35px;
+            column-gap: 35px;
+        }
+        .works__images {
+            width: 100%;
+        }
+    }
+    .experience {
+       .experience__wrapper {
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 48px;
+            column-gap: 66px;
+        } 
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 455px;
+    }
+}
+@media (max-width: 510px) {
+    .container {
+        width: 430px;
+    }
+}
+@media (max-width: 455px) {
+    .container {
+        width: 356px;
+    }
+    .experience {
+        .experience__wrapper {
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: 1fr;
+            row-gap: 5px;
+        } 
+    }
+}
+
+
+@media (max-width: 376px) {
+    .container {
+        width: 310px;
+    }
+    .header-main {
+        .header-main__link {
+            margin-bottom: 128px;
+        }
+    }
+    .title {
+        font-size: 19px;
+    }
+    .header-main {
+        .header-main__text {
+            font-size: 16px;
+        } 
+    }
+    .modal {
+        .modal__textarea {
+            padding: 12px 12px 122px;
+        }
+        .modal__btn {
+            text-decoration: none;
+            border: 1px solid #E7E7E7;
+            border-radius: 4px;
+            margin-top: 24px;
+            position: static;
+            width: 100px;
+            height: 40px;
+            margin-left: 133px;
+        }
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .container {
+        width: 285px;
+    }
+    
+}   
